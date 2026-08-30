@@ -61,26 +61,44 @@
 
 //Task 04
 
-var myScore = 85;
-var fScore = 55;
+// var myScore = 85;
+// var fScore = 55;
 
-if (myScore > 80){
+// if (myScore > 80){
 
-    if (fScore > 80){
-        console.log('Go for Lunch');
-    }
-    else if (fScore >= 60){
-        console.log('Good luck, next time');
-    }
-    else if (fScore >= 40){
-        console.log('Message Unseen');
-    }
-    else {
-        console.log('Block Your Friend')
-    }
-}
+//     if (fScore > 80){
+//         console.log('Go for Lunch');
+//     }
+//     else if (fScore >= 60){
+//         console.log('Good luck, next time');
+//     }
+//     else if (fScore >= 40){
+//         console.log('Message Unseen');
+//     }
+//     else {
+//         console.log('Block Your Friend')
+//     }
+// }
 
 
-else {
-    console.log('go to home then sleep and act sad')
-}
+// else {
+//     console.log('go to home then sleep and act sad')
+// }
+
+//task 05
+
+var num1 = 15;
+var num2 = 10;
+// var result;
+
+// if (num1 > num2){
+//     result = num1 * 2;
+// }
+// else {
+//     result = num1 + num2;
+// }
+
+// console.log(result)
+
+var result = num1 > num2 ? num1 * 2 : num1 + num2;
+console.log(result)
