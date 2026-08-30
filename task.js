@@ -35,26 +35,52 @@
 
 //task 03
 
-var score = 86;
+// var score = 86;
 
-if (score >= 90){
-    console.log('A')
+// if (score >= 90){
+//     console.log('A')
+// }
+// else{
+//     if (score >= 80){
+//         console.log('B')
+//     }
+//     else{
+//         if(score >=70){
+//             console.log('C')
+//         }
+//         else{
+//             if(score >= 60){
+//                 console.log('D')
+//             }
+//             else{
+//                 console.log('F')
+//             }
+//         }
+//     }
+// }
+
+//Task 04
+
+var myScore = 85;
+var fScore = 55;
+
+if (myScore > 80){
+
+    if (fScore > 80){
+        console.log('Go for Lunch');
+    }
+    else if (fScore >= 60){
+        console.log('Good luck, next time');
+    }
+    else if (fScore >= 40){
+        console.log('Message Unseen');
+    }
+    else {
+        console.log('Block Your Friend')
+    }
 }
-else{
-    if (score >= 80){
-        console.log('B')
-    }
-    else{
-        if(score >=70){
-            console.log('C')
-        }
-        else{
-            if(score >= 60){
-                console.log('D')
-            }
-            else{
-                console.log('F')
-            }
-        }
-    }
+
+
+else {
+    console.log('go to home then sleep and act sad')
 }
