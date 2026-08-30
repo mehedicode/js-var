@@ -13,22 +13,48 @@
 
 // task 02
 
-var weight = 60;
-var height = 1.7;
-var bmi = weight / (height * height);
+// var weight = 60;
+// var height = 1.7;
+// var bmi = weight / (height * height);
 
-if (bmi < 18.5){
-    console.log("You are underweight")
+// if (bmi < 18.5){
+//     console.log("You are underweight")
+// }
+
+// else {
+//     if (bmi >= 18.5 && bmi <= 24.9){
+//         console.log('you are normal')
+//     }
+//     else{
+//         if(bmi >= 25 && bmi <= 29.9){
+//             console.log('you are overweight')
+//         }
+//         else{console.log('you are abese')}
+//     }
+// }
+
+//task 03
+
+var score = 86;
+
+if (score >= 90){
+    console.log('A')
 }
-
-else {
-    if (bmi >= 18.5 && bmi <= 24.9){
-        console.log('you are normal')
+else{
+    if (score >= 80){
+        console.log('B')
     }
     else{
-        if(bmi >= 25 && bmi <= 29.9){
-            console.log('you are overweight')
+        if(score >=70){
+            console.log('C')
         }
-        else{console.log('you are abese')}
+        else{
+            if(score >= 60){
+                console.log('D')
+            }
+            else{
+                console.log('F')
+            }
+        }
     }
 }
