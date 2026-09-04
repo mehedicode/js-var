@@ -87,18 +87,18 @@
 
 //task 05
 
-var num1 = 15;
-var num2 = 10;
-// var result;
+// var num1 = 15;
+// var num2 = 10;
+// // var result;
 
-// if (num1 > num2){
-//     result = num1 * 2;
-// }
-// else {
-//     result = num1 + num2;
-// }
+// // if (num1 > num2){
+// //     result = num1 * 2;
+// // }
+// // else {
+// //     result = num1 + num2;
+// // }
 
+// // console.log(result)
+
+// var result = num1 > num2 ? num1 * 2 : num1 + num2;
 // console.log(result)
-
-var result = num1 > num2 ? num1 * 2 : num1 + num2;
-console.log(result)
