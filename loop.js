@@ -5,3 +5,9 @@ console.log(numbers);
 for (const number of numbers){
     console.log(number);
 }
+
+let num = 0;
+while (num < 5){
+    console.log('loooop', num);
+    num = num + 1;
+}
